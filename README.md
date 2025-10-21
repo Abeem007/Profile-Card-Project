@@ -14,7 +14,7 @@ It displays a user’s picture, bio, hobbies, dislikes, and social links.
 - CSS  
 - JavaScript
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/Abeem007/Profile-Card-Project.git
