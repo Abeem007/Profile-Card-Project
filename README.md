@@ -19,8 +19,10 @@ It displays a user’s picture, bio, hobbies, dislikes, and social links.
    ```bash
    git clone https://github.com/Abeem007/Profile-Card-Project.git
 2. Open project folder:
-   cd Profile-Card-Project
+cd Profile-Card-Project
+
 
 License
+
 This project is open source and free to use.
  
