@@ -1,0 +1,1 @@
+document.getElementById("currentTime").textContent = Date.now();
