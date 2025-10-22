@@ -1,7 +1,7 @@
 # Profile Card Project
 
-A simple and responsive profile card built with HTML, CSS, and a little JavaScript.  
-It displays a user’s picture, bio, hobbies, dislikes, and social links.
+A simple and responsive profile card built with HTML, CSS, and JavaScript.  
+It displays a user’s picture, bio, hobbies, dislikes, and social links. It also contains a contact form and an aboutme page.
 
 ##  Features
 - Clean and responsive design for all screen sizes  
@@ -19,7 +19,7 @@ It displays a user’s picture, bio, hobbies, dislikes, and social links.
    ```bash
    git clone https://github.com/Abeem007/Profile-Card-Project.git
 2. Open project folder:
-cd Profile-Card-Project
+  cd Profile-Card-Project
 
 
 License
