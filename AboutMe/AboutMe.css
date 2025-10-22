@@ -1,0 +1,144 @@
+body{
+    background: linear-gradient(135deg, #f0f4ff, #ffffff);
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 2rem 1rem;
+  animation: fadeIn 1s ease-in-out;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+.about-header{
+    text-align: center;
+    color: blue;
+    font-size: 2.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.about-header::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #004aad;
+  margin: 0.5rem auto;
+  border-radius: 2px;
+}
+
+.about-section{
+
+background-color: #f8f9ff;
+margin: 2rem;
+padding: 1.5rem 3rem;
+border-radius: 10px;
+width: 50%;
+box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-section:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.about-section h2{
+    text-align: center;
+    color: rgb(21, 21, 222);
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+.about-section p {
+    line-height: 1.8rem;
+    text-align: center;
+    font-size: 1rem;
+color: rgb(20, 15, 72);
+  transform: translateY(20px);
+  
+}
+.about-section ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.about-section ul li {
+  /* background: #eef2ff; */
+  color: rgb(20, 15, 72);;
+  margin: 0.5rem 0;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition:  0.3s ease, transform 0.3s ease;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.about-section ul li:hover {
+  background: #dbe4ff;
+  transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    width: 90%;
+    padding: 1rem 1.2rem;
+    margin: 1rem 0.5rem;
+  }
+
+  .about-header {
+    font-size: 2rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .about-section p {
+    font-size: 0.95rem;
+    line-height: 1.6rem;
+  }
+
+  .about-section ul li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .about-section {
+    width: 70%;
+    padding: 1.5rem 2rem;
+  }
+
+  .about-header {
+    font-size: 2.2rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .about-section {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1441px) {
+  .about-section {
+    width: 45%;
+  }
+}

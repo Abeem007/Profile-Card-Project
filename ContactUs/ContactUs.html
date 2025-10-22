@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/ContactUs/ContactUs.css" />
+    <script src="ContactUs.js" defer></script>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <form action="" data-testid="test-contactus-card" id="form">
+      <header><h1 data-testid="test-contact-header">Contact Us</h1></header>
+      <div class="input-control">
+        <label for="fullname">Full name</label>
+        <input  data-testid="test-contact-name" id="fullname" name="fullname" type="text"  aria-describedby="fullname-error" />
+        <div class="error" data-testid="test-contact-error-fullname" id="fullname-error"></div>
+      </div>
+      <div class="input-control">
+        <label for="email">Email</label>
+        <input data-testid="test-contact-email" id="email" name="email" type="text" aria-describedby="email-error" />
+         <div class="error" data-testid="test-contact-error-email" id="email-error" ></div>
+      </div>
+      <div class="input-control">
+        <label for="subject">Subject</label>
+        <input data-testid="test-contact-subject" id="subject" name="email" type="text" aria-describedby="subject-error" />
+         <div class="error" data-testid="test-contact-error-subject" id="subject-error" ></div>
+      </div>
+      <div class="input-control">
+        <label for="message">Message</label>
+        <input data-testid="test-contact-message" id="message" name="email" type="text" aria-describedby="message-error"  />
+         <div class="error" data-testid="test-contact-error-message" id="message-error" ></div>
+      </div>
+      <button type="submit" data-testid="test-contact-submit">Submit</button>
+      <p id="success-message" data-testid="test-contact-success" class="success-message"></p>
+    </form>
+  </body>
+</html>
